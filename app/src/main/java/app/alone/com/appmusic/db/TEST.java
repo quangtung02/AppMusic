@@ -5,4 +5,5 @@ public class TEST extends DB_BASIC {
 	public Long TEST_LONG_FIELD_1;
 	public Integer TEST_INTEGER_FIELD_2;
 	public String TEST_STRING_FIELD_3;
+
 }
