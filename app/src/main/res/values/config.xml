@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="bugsense_id"></string>
+    <string name="ga_id"></string>
+    <string name="gcm_id"></string>
+    <string name="base_url"></string>
+
+    <!-- List request error code -->
+    <string name="request_code_success">1</string>
+    <string name="request_code_session_expired">401</string>
+    
+    <string-array name="method_not_listen_time_out">
+        
+    </string-array>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="title_template">
+        <item name="character">キャラクター</item>
+        <item name="marriage">結婚</item>
+        <item name="birth">誕生</item>
+        <item name="family">ファミリー</item>
+        <item name="character">キャラクター</item>
+        <item name="marriage">結婚</item>
+        <item name="birth">誕生</item>
+        <item name="family">ファミリー</item>
+    </string-array>
+
+    <string-array name="menu_popup">
+        <item name="select_image_from_video">動画から写真を選ぶ</item>
+        <item name="select_image_from_library">ライブラリーから選ぶ</item>
+        <item name="use_camera_to_take_a_picture">カメラで撮影する </item>
+        <item name="cancel ">キャンセル</item>
+    </string-array>
+
+    <string-array name="menu_popup_with_delete">
+
+        <item name="delete_path_image">画像を削除</item>
+        <item name="select_image_from_video">動画から写真を選ぶ</item>
+        <item name="select_image_from_library">ライブラリーから選ぶ</item>
+        <item name="use_camera_to_take_a_picture">カメラで撮影する </item>
+        <item name="cancel ">キャンセル</item>
+    </string-array>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+
+    <array name="text_button_edit">
+        <item>動画編集</item>
+        <item>写真選択</item>
+        <item>テキスト</item>
+        <item>音楽</item>
+    </array>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_feature_loading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:id="@+id/feature_list_progress"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        app:cpb_colors="@array/gplus_colors" />
+
+
+    <TextView
+        android:id="@+id/feature_help_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feature_list_progress"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/loading"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/feature_help_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feature_help_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_button"
+        android:filterTouchesWhenObscured="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:text="@string/try_again"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
